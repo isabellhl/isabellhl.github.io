@@ -1,0 +1,95 @@
+/* Style Settings */
+ @import url('https://fonts.googleapis.com/css?family=VT323');
+/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap'); */
+
+body {
+   background: #f2e0cb;
+   background: linear-gradient(90deg,#302c2e 0%,#f2e0cb 30%,#f2e0cb 70%, #302c2e 100%); 
+    /* background: url('../images/04-19\ first\ rock.png');  */
+    /* font-family: 'Open Sans', sans-serif; */
+   font-family: 'VT323', sans-serif;
+    font-weight: 300;
+}
+
+a {
+    color: #302c2e;
+    transition: all .25s cubic-bezier(.08, .59, .29, .99);
+}
+
+a:hover {
+    background: rgb(48, 44, 46, .8);
+    color: #f2e0cb;
+}
+
+#userPhoto {
+    width: 130px;
+    height: 130px;
+    display: block;
+    margin: 100px auto 20px;
+    border-radius: 20%;
+}
+
+#userName {
+    color: #302c2e;
+    display: block;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 3px 3px 5px rgb(48, 44, 46, .5);
+    margin: 25px auto 40px;
+}
+
+#userName h1 {
+    font-size: 3.4rem;
+    font-weight: 400;
+    letter-spacing: 0.2rem; 
+    margin: 10px auto;
+}
+
+#userName p {
+   font-size: 1.6rem;
+    font-weight: 300;
+    margin-top: 5px;
+    text-transform: none;
+}
+
+i.fa {
+    margin-right: 0.3rem;
+}
+
+#links {
+    max-width: 300px;
+    width: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+.link {
+    display: block;
+    background: rgb(48, 44, 46, .8);
+    color: #f2e0cb;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 17px;
+    text-decoration: none;
+    font-size: 1.6rem;
+    font-weight: 300;
+    transition: all .25s cubic-bezier(.08, .59, .29, .99);
+    border-radius: 10px;
+    outline: none;
+    border: 2px solid #302c2e;
+    border-radius: 7px;
+    border-color: #302c2e;
+    box-shadow: 3px 3px 10px rgb(48, 44, 46, .8);
+}
+
+.link:hover {
+    background:  rgb(48, 44, 46, 1);
+    color: #f2e0cb;
+    /* border: none; */
+    outline: none;
+    border: 2px solid #dadada;
+    border-radius: 7px;
+    border-color: #302c2e;
+    box-shadow: 0 0 10px rgb(48, 44, 46, .8);
+}
