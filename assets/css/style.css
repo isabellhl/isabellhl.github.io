@@ -8,7 +8,7 @@ body {
     /* background: url('../images/04-19\ first\ rock.png');  */
     /* font-family: 'Open Sans', sans-serif; */
    font-family: 'VT323', sans-serif;
-    font-weight: 300;
+    font-weight: 200;
 }
 
 a {
@@ -22,8 +22,8 @@ a:hover {
 }
 
 #userPhoto {
-    width: 130px;
-    height: 130px;
+    width: 120px;
+    height: 120px;
     display: block;
     margin: 100px auto 20px;
     border-radius: 20%;
@@ -40,15 +40,15 @@ a:hover {
 }
 
 #userName h1 {
-    font-size: 3.4rem;
-    font-weight: 400;
+    font-size: 3.2rem;
+    font-weight: 300;
     letter-spacing: 0.2rem; 
     margin: 10px auto;
 }
 
 #userName p {
-   font-size: 1.6rem;
-    font-weight: 300;
+   font-size: 1.4rem;
+    font-weight: 200;
     margin-top: 5px;
     text-transform: none;
 }
@@ -70,10 +70,10 @@ i.fa {
     color: #f2e0cb;
     text-align: center;
     margin-bottom: 20px;
-    padding: 17px;
+    padding: 10px;
     text-decoration: none;
-    font-size: 1.6rem;
-    font-weight: 300;
+    font-size: 1.4rem;
+    font-weight: 200;
     transition: all .25s cubic-bezier(.08, .59, .29, .99);
     border-radius: 10px;
     outline: none;
