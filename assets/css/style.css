@@ -2,6 +2,17 @@
  @import url('https://fonts.googleapis.com/css?family=VT323');
 /* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap'); */
 
+/* .page-wrapper {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 99%;
+	height: 99%;
+	z-index: 700;  must be the higher than all other elements 
+	background: #fff;
+	border: 5px solid #ff9900;
+} */
+
 body {
    background: #f2e0cb;
    background: linear-gradient(90deg,#302c2e 0%,#f2e0cb 30%,#f2e0cb 70%, #302c2e 100%); 
@@ -93,3 +104,4 @@ i.fa {
     border-color: #302c2e;
     box-shadow: 0 0 10px rgb(48, 44, 46, .8);
 }
+
