@@ -8,8 +8,8 @@ body {
    /* background: linear-gradient(90deg,#302c2e 0%,#f2e0cb 30%,#f2e0cb 70%, #302c2e 100%); */
     /* background: url('../images/04-19\ first\ rock.png');  */
     /* font-family: 'Open Sans', sans-serif; */
-background-image:   url('../images/coast-pear-anim.gif');
-  background-repeat: repeat-x;
+background-image:   url('../images/stars-tiled.png');
+  background-repeat: repeat;
   background-attachment: fixed;
    font-family: 'VT323', sans-serif;
     font-weight: 200;
@@ -32,7 +32,7 @@ a:hover {
     display: block;
     margin: 100px auto 20px;
     border-radius: 20%;
-    box-shadow: 3px 3px 10px #323e4fdd;
+    box-shadow: 3px 3px 10px #191a1ddd;
 }
 
 #userName {
@@ -41,7 +41,7 @@ a:hover {
     width: 100%;
     text-align: center;
     text-decoration: none;
-    text-shadow: 3px 3px 5px #323e4fdd;
+    text-shadow: 3px 3px 5px #191a1ddd;
     margin: 25px auto 40px;
 }
 
@@ -74,7 +74,7 @@ i.fa {
 
 .link {
     display: block;
-    background: #ba6156;
+    background: #43434f;
     color: #dff6f5;
     text-align: center;
     margin-bottom: 20px;
@@ -85,16 +85,16 @@ i.fa {
     transition: all .25s cubic-bezier(.08, .59, .29, .99);
     border-radius: 10px;
     outline: none;
-    border: 3px solid #73315f;
+    border: 3px solid #d788ca;
     border-radius: 7px;
-    box-shadow: 3px 3px 10px #323e4fdd;
+    box-shadow: 3px 3px 10px #191a1ddd;
 }
 
 .link:hover {
-    background:  #73315fff;
-    color: #dff6f5;
+    background:  #d788caff;
+    color: #191a1d;
     outline: none;
-    border: 3x solid #73315fcc;
+    border: 3x solid #43434fcc;
     border-radius: 7px;
-    box-shadow: 0 0 10px #323e4fdd;
+    box-shadow: 0 0 0px #191a1ddd;
 
